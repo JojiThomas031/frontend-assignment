@@ -1,0 +1,46 @@
+table {
+    width: 80%; 
+    border-collapse: collapse;
+    margin: 0 auto; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    overflow: hidden; 
+    background-color: white; 
+}
+
+thead th {
+    background-color: #0288d1; 
+    color: white; 
+    font-size: 16px;
+    padding: 12px;
+    text-align: center;
+}
+
+tbody td {
+    font-size: 14px; 
+    padding: 12px;
+    text-align: center; 
+    border-top: 1px solid #ddd; 
+}
+
+tbody tr {
+    height: 50px; 
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f4f8fb; 
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e2eff5; 
+}
+
+tbody tr:hover {
+    background-color: #cde7f5; 
+    transition: background-color 0.3s ease; 
+}
+
+.percentage-funded {
+    color: green;
+    font-weight: bold;
+}
